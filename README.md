@@ -8,3 +8,6 @@ Catatan belajar kriptografi dari Cryptopals dan RSA.
 ## Cara jalan
 pip install sympy
 python rsa/attack_low_e.py
+
+## RsaCtfTool (di Termux)
+PYTHONPATH=~/RsaCtfTool/src python -m RsaCtfTool.main -n N -e E --decrypt C
